@@ -1,0 +1,50 @@
+/* importing a google font */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 img {
+    width: 400px;
+    height: 100px;
+}
+figure img {
+    width: 400px;
+    height: 300px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* style the nav bar */
+nav {
+    background-color: rgb(211, 255, 211);
+    text-align: left;
+}
+
+/* style the nav links */
+nav ul {
+    list-style-type: none;
+    padding: 3;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 149, 2);
+    font-weight: bold;
+}
+
