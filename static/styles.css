@@ -1,17 +1,57 @@
+/* NOTE: This document is alphabetically organized because I found
+it was easist to find and edit things this way. */
+
 /* importing a google font */
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body {
-  font-family: 'Muli', sans-serif;
+    background-color: rgb(245, 255, 245);
+    font-family: 'Muli', sans-serif;
+}
+
+figure img {
+    height: 300px;
+    width: 400px;
+}
+
+footer {
+    background-color: rgb(211, 255, 211);
+    color: rgb(0, 149, 2);
+    padding: 10px;
+    text-align: center;
+}
+
+/* styling the form */
+form {
+    background-color: rgb(211, 255, 211);
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 575px;
+    padding: 20px;
+    width: 90%;
+}
+
+h1 {
+    color: rgb(0, 149, 2);
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
 }
 
 h1 img {
-    width: 400px;
     height: 100px;
-}
-figure img {
     width: 400px;
-    height: 300px;
+}
+
+
+#content {
+    padding: 10px;
+}
+
+/* map styling */
+iframe {
+    padding: 15px;
 }
 
 .image-container {
@@ -19,19 +59,29 @@ figure img {
 }
 
 .image-container img {
-    width: 200px;
     height: 200px;
     margin-right: 10px;
     padding: 5px;
+    width: 200px;
 }
 
-/* style the nav bar */
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* styling the nav bar */
 nav {
     background-color: rgb(211, 255, 211);
     text-align: left;
 }
 
-/* style the nav links */
+nav a {
+    color: rgb(0, 149, 2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
 nav ul {
     list-style-type: none;
     padding: 3;
@@ -42,71 +92,32 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav a {
-    text-decoration: none;
-    color: rgb(0, 149, 2);
-    font-weight: bold;
-}
-
-body {
-    background-color:rgb(245, 255, 245);
-}
-
-h1 {
-    color:rgb(0, 149, 2);
-    margin: 10px;
-    padding: 5px;
-    font-weight: bold;
-}
-
+/* styling the table */
 table {
-    border: 1px solid rgb(0, 149, 2); 
-    padding: 10px;
-    margin: 10px;
-}
-
-
-td, th{
     border: 1px solid rgb(0, 149, 2);
-}
-
-footer {
-    background-color: rgb(211, 255, 211);
-    color: rgb(0, 149, 2);
-    text-align: center;
-    padding: 10px;
-}
-
-
-form {
-    width: 90%;
-    max-width: 575px;
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color:rgb(211, 255, 211);
 }
 
+td, th {
+    border: 1px solid rgb(0, 149, 2);
+}
+
 fieldset {
+    background-color: rgb(245, 255, 245);
     border: 3px dotted rgb(0, 149, 2);
     border-radius: 2px;
-    padding: 8px;
     margin-bottom: 15px;
-    background-color: rgb(245, 255, 245);
+    padding: 8px;
 }
 
-
-label {
-    display: block;
-    margin-bottom: 3px;
-}
-
+/* styling the submit button */
 input[type="submit"] {
-    background-color:rgb(0, 149, 2);
-    color:rgb(245, 255, 245);
-    padding: 10px;
+    background-color: rgb(0, 149, 2);
     border: none;
+    color: rgb(245, 255, 245);
     cursor: pointer;
+    padding: 10px;
 }
-
-
