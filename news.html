@@ -1,0 +1,54 @@
+<html>
+	<head>
+        <link rel="stylesheet" href="static/styles.css"> 
+		<title>Forms</title>
+	</head>
+	<body>
+        <header>
+            <h1>Newsletter</h1>
+             <!-- creating a nav bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calories.html">Nutrition</a></li>
+                <li><a href="news.html">Newsletter</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+		<form action="http://www.example.com/review.php" method="get">
+			<fieldset>
+				<legend>Your Info:</legend>
+				<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+				<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+			</fieldset><br />
+			<fieldset>
+				<legend>Your Thoughts:</legend>
+				<p>
+					<label for="hear-about">How did you hear about Katie's Vegan Eats?</label>
+					<select name="referrer" id="hear-about">
+						<option value="google">Google</option>
+						<option value="instagram">Instagram</option>
+						<option value="youtube">Youtube</option>
+						<option value="other">Other</option>
+					</select>
+				</p>
+				<p>
+					Would you visit again?<br />
+					<label><input type="radio" name="rating" value="yes" /> Yes, for sure!</label>
+					<label><input type="radio" name="rating" value="no" /> Def not</label>
+					<label><input type="radio" name="rating" value="maybe" /> I don't know</label>
+				</p>
+				<p>
+					<label for="comments">Please give us content suggestions:</label><br />
+					<textarea rows="4" cols="40" id="comments"></textarea>
+				</p>
+				<label><input type="checkbox" name="subscribe" checked="checked" /> YES, I want to get an amazing Newsletter weekly!</label><br />
+				<input type="submit" value="Submit" />
+			</fieldset>
+		</form>
+	</body>
+    <footer>
+        <p>&copy; Katie's Vegan Eats | kmakarsk@andrew.cmu.edu</p>
+    </footer>
+</html>
